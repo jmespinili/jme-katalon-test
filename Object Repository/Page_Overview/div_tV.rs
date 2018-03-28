@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_tV</name>
+   <tag></tag>
+   <elementGuidId>3be42611-6226-4c2c-b2fe-05584df7bf74</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>avatar-component-initials</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>tV</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;webform-app&quot;)/div[@class=&quot;app&quot;]/div[@class=&quot;navigation&quot;]/div[@class=&quot;nav-level-one&quot;]/div[@class=&quot;nav-right&quot;]/div[@class=&quot;hover-dropdown&quot;]/div[1]/div[@class=&quot;avatar-component avatar-component-blue&quot;]/div[@class=&quot;avatar-component-initials&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
