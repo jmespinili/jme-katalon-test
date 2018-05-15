@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>C%%Users%User%git%jme-katalon-test%jme-katalon-test.prj</name>
+	<name>C%%Users%jeffrey.espinili%Katalon Studio%Symphony%Symphony.prj</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -17,7 +17,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1522157465476</id>
+			<id>1522024208227</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -26,7 +26,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1522157465485</id>
+			<id>1522024208240</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -35,7 +35,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1522209058134</id>
+			<id>1526344758826</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -44,7 +44,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1522209058151</id>
+			<id>1526344758843</id>
 			<name></name>
 			<type>6</type>
 			<matcher>

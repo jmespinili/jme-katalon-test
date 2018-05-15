@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateCampaign</name>
+   <tag>Test01</tag>
+   <comment></comment>
+   <testCaseGuid>8b8ca301-2dc6-48bb-9e57-eaec98e67344</testCaseGuid>
+</TestCaseEntity>

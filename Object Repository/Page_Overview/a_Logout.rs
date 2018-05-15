@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Logout</name>
    <tag></tag>
-   <elementGuidId>6ced814d-89ef-4bc3-934c-f1de187b5d47</elementGuidId>
+   <elementGuidId>9b2558d7-605e-44fc-af51-1fb9bdc105e7</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

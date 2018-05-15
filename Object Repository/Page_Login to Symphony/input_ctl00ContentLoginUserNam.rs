@@ -3,7 +3,7 @@
    <description></description>
    <name>input_ctl00ContentLoginUserNam</name>
    <tag></tag>
-   <elementGuidId>62ca222a-6a0a-433a-b329-b759cd226a73</elementGuidId>
+   <elementGuidId>5a3aa467-b024-42a6-9653-c80f6f1aece3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

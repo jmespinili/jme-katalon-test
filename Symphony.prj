@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Test Project for Symphony</description>
+   <name>Symphony</name>
+   <tag></tag>
+   <UUID>65e1f39a-6d3d-453a-be4a-449e2fb37069</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>30</pageLoadTimeout>
+</Project>

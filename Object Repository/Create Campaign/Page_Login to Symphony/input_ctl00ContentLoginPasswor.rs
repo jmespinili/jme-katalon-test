@@ -3,7 +3,7 @@
    <description></description>
    <name>input_ctl00ContentLoginPasswor</name>
    <tag></tag>
-   <elementGuidId>6264032e-d723-4ad2-adf6-89eb0906e66f</elementGuidId>
+   <elementGuidId>ae601203-b124-4299-ba83-cc9a5288356e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
