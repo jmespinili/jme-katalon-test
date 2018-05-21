@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Simple test to login and logout of Symphony</description>
+   <name>LoginLogout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>98d7a30b-5329-4317-ac4e-c687a6dc285a</testCaseGuid>
+</TestCaseEntity>
