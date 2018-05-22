@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_ctl00ContentLoginPasswor</name>
+   <name>TxtLoginPassword</name>
    <tag></tag>
    <elementGuidId>6264032e-d723-4ad2-adf6-89eb0906e66f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

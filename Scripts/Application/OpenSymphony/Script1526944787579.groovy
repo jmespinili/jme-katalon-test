@@ -19,31 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Open Browser'
 WebUI.openBrowser('')
-
-'Navigate to URL'
-WebUI.navigateToUrl('https://haides.adslot.com')
 
 WebUI.maximizeWindow()
 
-'Enter credentials'
-WebUI.setText(findTestObject('Page_Login to Symphony/input_ctl00ContentLoginUserNam'), 'lorenzo.gonzales+autoVNAgency@adslot.com')
-
-WebUI.setText(findTestObject('Page_Login to Symphony/input_ctl00ContentLoginPasswor'), 'Es2cyfL!1')
-
-WebUI.click(findTestObject('Page_Login to Symphony/button_Login'))
+WebUI.navigateToUrl(GlobalVariable.environment)
 
 WebUI.waitForPageLoad(30)
-
-WebUI.waitForElementVisible(findTestObject('Page_Overview/LblUserInitial'), 30)
-
-'Logout'
-WebUI.mouseOver(findTestObject('Page_Overview/LblUserInitial'))
-
-WebUI.click(findTestObject('Page_Overview/a_Logout'))
-
-WebUI.waitForPageLoad(30)
-
-WebUI.closeBrowser()
 
