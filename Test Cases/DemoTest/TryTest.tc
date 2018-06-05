@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CreateCampaign</name>
-   <tag>Test01</tag>
+   <name>TryTest</name>
+   <tag></tag>
    <comment></comment>
-   <testCaseGuid>8b8ca301-2dc6-48bb-9e57-eaec98e67344</testCaseGuid>
+   <testCaseGuid>374d63c6-a108-4ab3-96fc-e8e3c0dff215</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Default Campaign'</defaultValue>
       <description></description>
-      <id>a65435bc-1d94-4494-8388-b328ec24db8c</id>
+      <id>372d2f2e-cceb-487a-9640-6c65ddc4fb81</id>
       <masked>false</masked>
       <name>campaignName</name>
    </variable>

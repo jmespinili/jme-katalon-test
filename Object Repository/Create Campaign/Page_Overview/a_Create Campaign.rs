@@ -4,6 +4,12 @@
    <name>a_Create Campaign</name>
    <tag></tag>
    <elementGuidId>e8780e5b-b614-41fc-a89f-6db4d76478c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Create Campaign' or . = 'Create Campaign')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -49,7 +55,7 @@
       <value>-1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

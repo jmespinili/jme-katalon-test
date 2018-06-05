@@ -18,35 +18,24 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Create Campaign/Page_Overview/a_Create Campaign'))
+WebUI.click(findTestObject('Page_Overview/LnkSearch'))
 
-WebUI.waitForPageLoad(30)
+WebUI.setText(findTestObject('Page_Overview/TxtSearchBox'), campaignName)
 
-WebUI.waitForJQueryLoad(30)
+WebUI.click(findTestObject('Page_Overview/BtnSearch'))
 
-WebUI.waitForElementVisible(findTestObject('Create Campaign/Page_New Create Campaign/CreateCampaignIframe'), 0)
+resultCampaignName = WebUI.getText(findTestObject('Page_Overview/Search/LblSearchResult'))
 
-WebUI.delay(1)
+if (resultCampaignName == 'Your search did not return any campaigns.') {
+    WebUI.callTestCase(findTestCase('DemoTest/CreateCampaign'), [('campaignName') : campaignName], FailureHandling.STOP_ON_FAILURE)
+} else {
+    searchCampaignName = WebUI.getText(findTestObject('Page_Overview/Search/Lnk1stResult'))
 
-WebUI.switchToFrame(findTestObject('Create Campaign/Page_New Create Campaign/CreateCampaignIframe'), 30)
-
-WebUI.waitForElementVisible(findTestObject('Create Campaign/Page_New Create Campaign/DetailsTab/DdlAgencyContact'), 30)
-
-WebUI.setText(findTestObject('Create Campaign/Page_New Create Campaign/DetailsTab/TxtCampaignName'), campaignName)
-
-CustomKeywords.'react.reactSelect.selectValueNcm'(findTestObject('Create Campaign/Page_New Create Campaign/DetailsTab/DdlAgencyContact'), 
-    'Auto BG Test')
-
-CustomKeywords.'react.reactSelect.selectValueNcm'(findTestObject('Create Campaign/Page_New Create Campaign/DetailsTab/DdlClient'), 
-    'GM_Belgium')
-
-CustomKeywords.'react.reactSelect.selectValueNcm'(findTestObject('Create Campaign/Page_New Create Campaign/DetailsTab/DdlProduct'), 
-    'Generic')
-
-CustomKeywords.'react.reactSelect.selectValueNcm'(findTestObject('Create Campaign/Page_New Create Campaign/DetailsTab/Ddl3rdPartyAdServer'), 
-    'DCM')
-
-WebUI.click(findTestObject('Create Campaign/Page_New Create Campaign/BtnSave'))
+    if (searchCampaignName == campaignName) {
+        WebUI.click(findTestObject('Page_Overview/Search/Lnk1stResult'))
+    } else {
+        WebUI.callTestCase(findTestCase('DemoTest/CreateCampaign'), [('campaignName') : campaignName], FailureHandling.STOP_ON_FAILURE)
+    }
+}
 

@@ -18,35 +18,4 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-
-WebUI.click(findTestObject('Create Campaign/Page_Overview/a_Create Campaign'))
-
-WebUI.waitForPageLoad(30)
-
-WebUI.waitForJQueryLoad(30)
-
-WebUI.waitForElementVisible(findTestObject('Create Campaign/Page_New Create Campaign/CreateCampaignIframe'), 0)
-
-WebUI.delay(1)
-
-WebUI.switchToFrame(findTestObject('Create Campaign/Page_New Create Campaign/CreateCampaignIframe'), 30)
-
-WebUI.waitForElementVisible(findTestObject('Create Campaign/Page_New Create Campaign/DetailsTab/DdlAgencyContact'), 30)
-
-WebUI.setText(findTestObject('Create Campaign/Page_New Create Campaign/DetailsTab/TxtCampaignName'), campaignName)
-
-CustomKeywords.'react.reactSelect.selectValueNcm'(findTestObject('Create Campaign/Page_New Create Campaign/DetailsTab/DdlAgencyContact'), 
-    'Auto BG Test')
-
-CustomKeywords.'react.reactSelect.selectValueNcm'(findTestObject('Create Campaign/Page_New Create Campaign/DetailsTab/DdlClient'), 
-    'GM_Belgium')
-
-CustomKeywords.'react.reactSelect.selectValueNcm'(findTestObject('Create Campaign/Page_New Create Campaign/DetailsTab/DdlProduct'), 
-    'Generic')
-
-CustomKeywords.'react.reactSelect.selectValueNcm'(findTestObject('Create Campaign/Page_New Create Campaign/DetailsTab/Ddl3rdPartyAdServer'), 
-    'DCM')
-
-WebUI.click(findTestObject('Create Campaign/Page_New Create Campaign/BtnSave'))
 

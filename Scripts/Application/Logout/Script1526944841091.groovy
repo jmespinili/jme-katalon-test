@@ -19,6 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.delay(1)
+
 WebUI.waitForElementVisible(findTestObject('Page_Overview/LblUserInitial'), 30)
 
 WebUI.mouseOver(findTestObject('Page_Overview/LblUserInitial'))

@@ -20,6 +20,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Application/OpenSymphony'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Application/Login'), [('username') : 'jeffrey.espinili+belgiumTestAuto@adslot.com', ('password') : '1Luv@dslo+'], 
+    FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Create Campaign/Page_Overview/a_Create Campaign'))
 
 WebUI.waitForPageLoad(30)
@@ -34,7 +39,9 @@ WebUI.switchToFrame(findTestObject('Create Campaign/Page_New Create Campaign/Cre
 
 WebUI.waitForElementVisible(findTestObject('Create Campaign/Page_New Create Campaign/DetailsTab/DdlAgencyContact'), 30)
 
-WebUI.setText(findTestObject('Create Campaign/Page_New Create Campaign/DetailsTab/TxtCampaignName'), campaignName)
+String ts = System.currentTimeMillis().toString()
+
+WebUI.setText(findTestObject('Create Campaign/Page_New Create Campaign/DetailsTab/TxtCampaignName'), campaignName + " " + ts)
 
 CustomKeywords.'react.reactSelect.selectValueNcm'(findTestObject('Create Campaign/Page_New Create Campaign/DetailsTab/DdlAgencyContact'), 
     'Auto BG Test')
@@ -49,4 +56,6 @@ CustomKeywords.'react.reactSelect.selectValueNcm'(findTestObject('Create Campaig
     'DCM')
 
 WebUI.click(findTestObject('Create Campaign/Page_New Create Campaign/BtnSave'))
+
+WebUI.callTestCase(findTestCase('Application/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

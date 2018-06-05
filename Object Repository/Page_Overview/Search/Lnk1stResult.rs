@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Lnk1stResult</name>
+   <tag></tag>
+   <elementGuidId>4b195a86-9eec-4f80-8703-dadf84a24c4e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_Content_tabWidgetControl_tabSearch_rpSearchCampaigns_ctl01_lnkCampaign</value>
+   </webElementProperties>
+</WebElementEntity>

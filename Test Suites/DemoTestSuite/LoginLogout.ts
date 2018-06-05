@@ -4,7 +4,7 @@
    <name>LoginLogout</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-22T10:08:14</lastRun>
+   <lastRun>2018-05-23T15:50:59</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -16,5 +16,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/DemoTest/LoginLogout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6f7e322c-8973-4e07-9b19-85260bb19c0d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DemoTest/TryTest</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>372d2f2e-cceb-487a-9640-6c65ddc4fb81</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

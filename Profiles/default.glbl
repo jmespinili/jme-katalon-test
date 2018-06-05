@@ -19,4 +19,19 @@
       <initValue>'https://haides.adslot.com'</initValue>
       <name>environment</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jeffrey.espinili+belgiumTestAuto@adslot.com'</initValue>
+      <name>ncmusername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1Luv@dslo+'</initValue>
+      <name>ncmpassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test'</initValue>
+      <name>campaignname</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
